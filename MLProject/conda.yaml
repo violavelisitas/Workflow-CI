@@ -1,4 +1,4 @@
-name: iris-env
+name: heart-env
 channels:
   - defaults
   - conda-forge
@@ -7,6 +7,6 @@ dependencies:
   - pip
   - pip:
     - mlflow==2.19.0
-    - scikit-learn>=1.3.0
+    - scikit-learn==1.5.2
     - pandas>=2.0.0
     - numpy>=1.24.0
